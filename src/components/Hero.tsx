@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ChevronDown, Github, Linkedin, Mail, Download } from 'lucide-react'
+import { ChevronDown, Github, Linkedin } from 'lucide-react'
 import './Hero.css'
 
 const Hero = () => {

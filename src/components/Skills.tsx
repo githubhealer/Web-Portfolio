@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Code, Database, Cloud, Settings } from 'lucide-react'
+import { Code, Database, Cloud } from 'lucide-react'
 import './Skills.css'
 
 const Skills = () => {
