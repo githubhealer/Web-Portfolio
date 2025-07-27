@@ -97,6 +97,36 @@ const Education = () => {
           Education
         </motion.h2>
 
+        {/* Certifications Section */}
+        <motion.div
+          className="certifications-section"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          viewport={{ once: true }}
+        >
+          <h3>Certifications & Badges</h3>
+          <ul className="certifications-list">
+            <li>
+              <strong>Machine Learning Certification</strong>
+              <br />
+              <a href="https://skillwallet.smartinternz.com/internships/google_developers/27e5b67fd10a082a605ee7d995f69eca" target="_blank" rel="noopener noreferrer">Certificate</a>
+            </li>
+            <li>
+              <strong>Credly Badges (5)</strong>
+              <ul>
+                <li><a href="https://www.credly.com/badges/5f2b9b41-3636-4847-84d3-e4c744d9fa15/public_url" target="_blank" rel="noopener noreferrer">Develop GenAI Apps with Gemini and Streamlit Skill Badge</a></li>
+                <li><a href="https://www.credly.com/badges/d6c23a3f-7274-4082-95de-683e85b9027b/public_url" target="_blank" rel="noopener noreferrer">Inspect Rich Documents with Gemini Multimodality and Multimodal RAG Skill Badge</a></li>
+                <li><a href="https://www.credly.com/badges/922bab3c-059a-4996-89f8-b6483b8fba10/public_url" target="_blank" rel="noopener noreferrer">Prompt Design in Vertex AI Skill Badge</a></li>
+                <li><a href="https://www.credly.com/badges/33ac8e93-d004-4725-90c0-245796bb4281/public_url" target="_blank" rel="noopener noreferrer">Getting Started with Artificial Intelligence</a></li>
+                <li><a href="https://www.credly.com/badges/dbd8c654-0922-4414-92e6-d61d9920be75/public_url" target="_blank" rel="noopener noreferrer">Journey to Cloud: Envisioning Your Solution</a></li>
+              </ul>
+            </li>
+          </ul>
+          <br/>
+    
+        </motion.div>
+
         <div className="education-content">
           <motion.div
             className="education-timeline"

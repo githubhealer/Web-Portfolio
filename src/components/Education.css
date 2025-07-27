@@ -1,3 +1,59 @@
+/* Certifications Section Styling */
+.certifications-section {
+  background: var(--bg-secondary);
+  border-radius: 18px;
+  padding: 2rem 2.5rem;
+  margin-bottom: 2.5rem;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+}
+
+.certifications-section h3 {
+  color: var(--primary-color);
+  margin-bottom: 1.2rem;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+.certifications-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.certifications-list > li {
+  margin-bottom: 1.2rem;
+  color: var(--text-primary);
+  font-size: 1.05rem;
+}
+
+.certifications-list a {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--accent-color);
+  background: rgba(37,99,235,0.08);
+  padding: 0.35em 1em;
+  border-radius: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.certifications-list a:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.certifications-list ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.2rem;
+}
+
+.certifications-list ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.98rem;
+}
 .education {
   background: var(--bg-primary);
 }

@@ -131,7 +131,7 @@ const Skills = () => {
               <span className="tag">Automation</span>
               <span className="tag">IoT</span>
               <span className="tag">AI/ML</span>
-              <span className="tag">RPA</span>
+              <span className="tag">Autonomous Drone Technology</span>
               <span className="tag">Deep Learning</span>
               <span className="tag">Computer Vision</span>
             </div>
