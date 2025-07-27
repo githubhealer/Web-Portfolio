@@ -41,7 +41,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection }) => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <span className="logo-text">Portfolio</span>
+            <span className="logo-text">Sandeep Ganesh</span>
           </motion.div>
 
           <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>

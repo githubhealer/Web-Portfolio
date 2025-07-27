@@ -9,8 +9,8 @@ const Skills = () => {
       icon: <Code size={32} />,
       skills: [
         { name: 'Python', level: 75 },
-        { name: 'C', level: 60 },
-        { name: 'Java', level: 50 }
+        { name: 'Java', level: 65 },
+        { name: 'C', level: 40 }
       ]
     },
     {

@@ -26,7 +26,9 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              Hi, I'm an{' '}
+              Hi, I'm <span className="gradient-text">Sandeep Ganesh</span>
+              <br />
+              An{' '}
               <span className="gradient-text">AI & Robotics</span>{' '}
               Student
             </motion.h1>
